@@ -1,0 +1,95 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    width: 700px;
+    background-color: #000;
+    color: #fff;
+    height: 80px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin: auto;
+} 
+
+.feed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flex-container {
+    width: 700px;
+    display: flex;
+    margin: auto;
+
+}
+
+.col-1 {
+    flex: 1;
+    border: 3px solid #000;
+    padding: 20px;
+    margin-right: 20px;
+    height: 200px;
+}
+
+.col-1 ul {
+    list-style: none;
+    text-align: center;
+}
+
+.col-1 li {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 80px;
+}
+
+.col-2 {
+    flex: 3;
+}
+
+.container {
+    border: 3px solid #000;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+button {
+    background-color: #ffd966;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 0 #000;
+    border: 2px solid #000;
+    font-size: larger;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #C3A230;
+    box-shadow: none;
+}

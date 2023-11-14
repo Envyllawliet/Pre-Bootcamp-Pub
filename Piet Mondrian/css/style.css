@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body {
+    background-color: silver;
+}
+
+.container {
+    background-color: black;
+    width: 1000px;
+    height: 1350px;
+    
+}
+.container1 {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rojo {
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    flex: 10;
+}
+.blanco {
+    background-color: white;
+    margin-left: 10px;
+    flex: 10;
+}
+.container2 {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blanco2 {
+    background-color: white;
+    flex: 30;
+    height: 800px;
+}
+.azul {
+    background-color: blue;
+    flex: 29;
+    margin-left: 10px;
+}
+
+.blanco3 {
+    background-color: white;
+    flex: 1;
+    margin-left: 10px;
+}
+.container3 {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.blanco4 {
+    background-color: white;
+    flex: 4;
+    width: 200px;
+    height: 200px;
+}
+.container4 {
+    background-color: black;
+    flex: 16;
+    margin-left: 10px;
+}
+.amarillo {
+    background-color: yellow;
+    height: 172px;
+    flex: 9;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.blanco5 {
+    background-color: white;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    flex: 1;
+
+}
+.blanco6 {
+    background-color: white;
+    flex: 20;
+    margin-left: 10px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Dojo</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Navbar-->
+    <div class="header">
+        <div class="navbar">
+        <h1>DojoWeather</h1>
+            <ul class="itemlist">
+                <li>
+                    <a onclick="loading()" href="#">Burbank</a>
+                </li>
+                <li>
+                    <a onclick="loading()" href="#">Chicago</a>
+                </li>
+                <li>
+                    <a onclick="loading()" href="#">Dallas</a>
+                </li>
+            </ul>
+        </div>
+    </div>  
+    <div class="main-container">
+        <div class="title">
+            <h1>San Jose</h1>
+            <span>
+                <p>show temperature in</p>
+                <select name="temp" id="grades" onchange="temp()">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </span>
+        </div>
+        <div class="weather">
+            <ul class="day">
+                <li>
+                    <h2>Today</h2>
+                </li>
+                <li>
+                    <img src="assets/some_rain.png" alt="some_rain">
+                </li>
+                <li>
+                    <h5>some rain</h5>
+                </li>
+                <li>
+                    <p>
+                        <span class="hot">24°</span>
+                        <span class="cold">18°</span>
+                    </p>
+                </li>
+            </ul>
+            <ul class="day">
+                <li>
+                    <h2>Tomorrow</h2>
+                </li>
+                <li>
+                    <img src="assets/some_sun.png" alt="some_rain">
+                </li>
+                <li>
+                    <h5>some rain</h5>
+                </li>
+                <li>
+                    <p>
+                        <span class="hot">27°</span>
+                        <span class="cold">19°</span>
+                    </p>
+                </li>
+            </ul>
+            <ul class="day">
+                <li>
+                    <h2>Friday</h2>
+                </li>
+                <li>
+                    <img src="assets/some_clouds.png" alt="some_rain">
+                </li>
+                <li>
+                    <h5>some rain</h5>
+                </li>
+                <li>
+                    <p>
+                        <span class="hot">21°</span>
+                        <span class="cold">16°</span>
+                    </p>
+                </li>
+            </ul>
+            <ul class="day">
+                <li>
+                    <h2>Saturday</h2>
+                </li>
+                <li>
+                    <img src="assets/some_sun.png" alt="some_rain">
+                </li>
+                <li>
+                    <h5>some rain</h5>
+                </li>
+                <li>
+                    <p>
+                        <span class="hot">26°</span>
+                        <span class="cold">21°</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="message">
+            <div class="cookies">
+                <img src="assets/cookie.png" alt="cookie">
+                <span>
+                    <h3>Stop! Cookie time</h3>
+                    <p>
+                        We use cookies (sadly not the edible ones) to personalize
+                        <br> content and ads, to provide social media features and to analyse our traffic <a href="#">Read more...</a>
+                    </p>
+                </span>
+                <button id="btn" onclick="cookies()">I accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Navbar*/
+
+.header {
+    height: 80px;
+    background-color: #9fc5f8;
+    color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemlist {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.itemlist a {
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+}
+
+.main-container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*Title*/
+
+.title {
+    border-bottom: 3px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.title span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+/*Weather*/
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    list-style: none;
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 120px;
+}
+
+.day li {
+    margin-bottom: 20px;
+}
+
+.day img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.hot {
+    font-size: larger;
+    font-weight: bold;
+    color: #f00;
+    margin-right: 20px;
+}
+
+.cold {
+    font-size: larger;
+    font-weight: bold;
+    color: #00f;
+}
+
+/*Cookies*/
+
+#message {
+    background-color: #eee;
+    padding: 10px 20px;
+    border: 3px solid #000;
+    position: fixed;
+    width: 656px;
+    z-index: 1;
+    bottom: 420px;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.cookies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cookies > * {
+    margin-right: 20px;
+}
+
+.cookies img {
+    width: 50px;
+}
+
+.cookies span {
+    font-size: 15px;
+}
+
+.cookies button {
+    width: 70px; 
+    font-size: 12px; 
+    font-weight: bold;
+    padding: 2px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #000;
+    background-color: #9fc5f8;
+}
+
+.cookies button:active {
+    background-color: #4080d4;
+}

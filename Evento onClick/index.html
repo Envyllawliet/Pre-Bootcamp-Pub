@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--navbar-->
+    <div class="nav">
+        <div class="container">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-objects">
+                <li>
+                    <input type="text" name="search-bar" placeholder="Search">
+                </li>
+                <li>
+                    <button class="btn" onclick="loginLogout(this)">Login</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--main-->
+    <div class="container-main">
+        <div class="col-2">
+            <div class="cuadro">
+                <div class="title-def">
+                    <ul>
+                    <li><h1>ninja</h1></li>
+                    <li><h3>noun</h3></li>
+                    <li><h4>Plural: <span>ninjas</span></h4></li>
+                    <li><button class="btn-like" onclick="meGusta1()"><span id="likedef1" >13</span> likes</button></li>
+                    </ul>
+                </div>
+                <div class="def">
+                    <p> A practitioner skilled in the <br><span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="cuadro">
+                <div class="title-def">
+                    <ul>
+                    <li><h1>ninja</h1></li>
+                    <li><h3>noun</h3></li>
+                    <li><h4>Plural: <span>ninjas</span></h4></li>
+                    <li><button class="btn-like" onclick="meGusta2()"><span id="likedef2">37</span> likes</button></li>
+                    </ul>
+                </div>
+                <div class="def">
+                    <p> A <span>programmer</span> who breaks <br>down problems with <span>zen</span>-like <br>focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+            <div class="cuadro">
+                <h2>Dojonary is <br> defined by <span>YOU</span></h2>
+                <button class="btn-def" onclick="addDef(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

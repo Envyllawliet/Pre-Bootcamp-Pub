@@ -1,0 +1,97 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*Boton con borde y sombra*/
+.button {
+    margin-top: 10px;
+    background-color: #2b78e4;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 1px black;
+}
+/*Filas*/
+.row {
+    display: flex;
+}
+/*Columnas*/
+.col {
+    flex: 1;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    background-color: blue;
+    justify-content: space-evenly;
+}
+/*Header*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    height: 80px;
+    color: white;
+    padding: 0 20px;
+}
+/*Estrella*/
+.estrella {
+    color: white;
+    width: 0;
+    height: 0;
+    margin-top: -100px;
+    border-right: 5em solid transparent;
+    border-bottom: 3.5em solid white;
+    border-left: 5em solid transparent;
+    transform: rotate(35deg);
+}
+.estrella:before {
+    color: white;
+    width: 0;
+    height: 0;
+    border-right: 1.5em solid transparent;
+    border-bottom: 4em solid white;
+    border-left: 1.5em solid transparent;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: -2.25em;
+    left: -3.25em;
+    display: block;
+    content: '';
+}
+.estrella:after {
+    color: white;
+    width: 0;
+    height: 0;
+    border-right: 5em solid transparent;
+    border-bottom: 3.5em solid white;
+    border-left: 5em solid transparent;
+    transform: rotate(-70deg);
+    position: absolute;
+    top: 0.15em;
+    left: -5.25em;
+    display: block;
+    content: '';
+}
+/*Tarjeta de presentación*/
+.card {
+    width: 400px;
+}
+.header-card {
+    background-color: #17a2b8;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+.content-card {
+    border: 3px solid silver;
+    border-top: 0;
+    padding: 40px 20px 20px;
+}

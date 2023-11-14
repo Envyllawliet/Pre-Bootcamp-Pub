@@ -1,0 +1,31 @@
+body {
+    font-family: cursive;
+}
+h1 {
+    color: #00ffff;
+    background-color: black;
+    text-indent: 1em;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+span {
+    color: white;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #663399;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+h3 {
+    text-align: right;
+    text-decoration: underline;
+    background-color: #9fc5f8;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}

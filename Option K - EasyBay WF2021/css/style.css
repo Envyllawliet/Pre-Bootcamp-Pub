@@ -1,0 +1,257 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #fff;
+    font-family: 'Archivo', sans-serif;
+}
+
+/*Flex Box*/
+
+.navbar, .navlinks, .navlinks li, .searchbar, .types, .mosaic, .bottom, .cookies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navlinks, .types, .hero, .main, #message {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*Navegation Bar*/
+
+.navbar {
+    height: 80px;
+    color: #000;
+    background-color: #fff;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    margin-right: 10px;
+}
+
+.navlinks h1 {
+    margin-right: 15px;
+    font-family: 'Merriweather', serif; 
+}
+
+.navlinks a, .types a, .rightblock a {
+    font-size: larger;
+    text-decoration: none;
+}
+
+.navlinks a {
+    color: #000;
+    font-weight: bold;
+}
+
+.logo {
+    background-color: #00bbb4;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.searchbar {
+    border-radius: 25px;
+    width: 800px;
+    height: 40px;
+    background-color: #f5f4f6;
+    border: 2px solid #b2b1b2;
+    margin-right: 20px;
+}
+
+.search {
+    border: none;
+    padding-left: 20px;
+    flex-grow: 1;
+    background: none;
+    font-size: larger;
+    color: #a4a3a4;
+    outline: none;
+}
+
+.lupa {
+    background: none;
+    border: none;
+    padding-right: 10px;
+}
+
+.lupa img {
+    width: 30px;
+}
+
+.cart {
+    width: 50px;
+    margin-left: 20px;
+}
+
+/*Succulent Index*/
+
+.types {
+    border-bottom: 4px solid #000;    
+    padding-bottom: 10px;
+}
+
+.types a {
+    color: #000;
+    font-weight: bold;
+}
+
+/*Hero Banner*/
+
+.hero {
+    font-size: x-large;
+    padding: 30px;
+}
+
+.hero h1 {
+    margin-left: 140px;
+}
+
+/*Middle Mosaic*/
+
+.mosaic {
+    margin-bottom: 30px;
+}
+
+.left, .rightblock, .rightblock a {
+    background-color: #00bbb4;
+    color: #fff;
+} 
+
+.left, .middle, .middle img, .right {
+    height: 390px;
+    width: 390px;
+}
+
+.left, .middle, .right, .rightblock, #message {
+    box-sizing: border-box;
+}
+
+.left {
+    padding: 50px;
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.left p {
+    margin-bottom: 50px;
+}
+
+.left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.left a img {
+    width: 40px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.middle {
+    margin-right: 30px;
+}
+
+.right {
+    display: block;
+}
+
+.right > img {
+    width: 390px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+.rightblock {
+    height: 97px;
+    padding: 24px 30px;
+}
+
+.rightblock a {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.rightblock img {
+    width: 30px;
+    position: relative;
+    top: 8px;
+}
+
+/*Bottom variety*/
+
+.bottom {
+    background-color: #aeeae9;
+    padding: 70px 20px;
+    margin-bottom: 20px;
+}
+
+.plant {
+    text-align: center;
+}
+
+.plant img {
+    border-radius: 50%;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+/*Cookies*/
+
+#message {
+    background-color: #eee;
+    padding: 20px 30px;
+    border: 3px solid #000;
+    box-shadow: 4px 4px 4px #ccc;
+    position: fixed;
+    bottom: 10px;
+}
+
+.cookies > * {
+    margin-right: 20px;
+}
+
+.cookies img {
+    width: 80px;
+    margin-left: 20px;
+}
+
+.cookies p {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.cookies button {
+    width: 120px; 
+    height: 40px;
+    font-size: 20px; 
+    font-weight: bold;
+    color: #fff;
+    border: 3px solid #000;
+    box-shadow: 5px 5px #000;
+    background-color: #00bbb4;
+}
+
+.cookies button:active {
+    border-radius: 5%;
+    box-shadow: 1px 1px #fff, 5px 5px #000;
+}

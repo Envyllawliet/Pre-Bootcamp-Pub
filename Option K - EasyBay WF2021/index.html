@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option K - EasyBay WF2021</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Archive Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <!--Merriweather Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->    
+    <div class="navbar">
+        <ul class="navlinks">
+            <li>
+                <div class="logo">
+                    <img src="images/leaf.png" alt="leaf-logo">
+                </div>
+            </li>
+            <li>
+                <h1>EasyBay</h1>
+            </li>
+            <li>
+                <div class="searchbar">
+                    <input class="search" type="text" placeholder="Search for anything">
+                    <button class="lupa"><img src="images/search-dark.png" alt="search-icon"></button>
+                </div>
+            </li>
+            <li>
+                <a href="#">Sign In</a>
+            </li>
+            <li>
+                <img class="cart" onclick="cartStatus()" src="images/cart-dark.png" alt="">
+            </li>
+        </ul>
+    </div>
+    <!--Succulent Index-->
+    <div class="Index">
+        <div class="types">
+            <a href="#">Aeonium</a>
+            <a href="#">Andormischus</a>
+            <a href="#">Agave</a>
+            <a href="#">Aloe</a>
+            <a href="#">Anacampseros</a>
+            <a href="#">Aristaloe</a>
+            <a href="#">More...</a>
+        </div>
+    </div>
+    <!--Main-->
+    <div class="main">
+        <!--Hero Banner-->
+        <div class="hero">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <!--Mosaic-->
+        <div class="mosaic">
+            <div class="left">
+                <p>Discover succ-<br>
+                ulent varieties<br>
+                one pot or rack<br>
+                at a time!</p>
+                <a href="#">Discover <img src="images/arrow-light.png" alt="arrow"></a>
+            </div>
+            <div class="middle">
+                <img id="main-succ" onmouseover="hoverIn(this)" onmouseout="hoverOut(this)" src="images/succulents-1.jpg" alt="succulents">
+            </div>
+            <div class="right">
+                <img src="images/aloe-m.jpg" alt="aloe">
+                <div class="rightblock">
+                    <a href="#">Soothing aloe <img src="images/arrow-light.png" alt="arrow"></a>
+                </div>
+            </div>
+        </div>
+        <!--Bottom Block-->
+        <div class="bottom">
+            <div class="plant">
+                <img src="images/aeonium-s.jpg" alt="aeonium">
+                <h3>Aeonium</h3>
+            </div>
+            <div class="plant">
+                <img src="images/aloe-s.jpg" alt="aloe">
+                <h3>Aloe</h3>
+            </div>
+            <div class="plant">
+                <img src="images/cactus-s.jpg" alt="cactus">
+                <h3>Cactus</h3>
+            </div>
+            <div class="plant">
+                <img src="images/echeveria-s.jpg" alt="echeveria">
+                <h3>Echeveria</h3>
+            </div>
+            <div class="plant">
+                <img src="images/sedum-s.jpg" alt="sedum">
+                <h3>Sedum</h3>
+            </div>
+            <div class="plant">
+                <img src="images/sempervivum-s.jpg" alt="sempervivum">
+                <h3>Sempervivum</h3>
+            </div>
+        </div>
+        <!--Cookies Message-->
+        <div id="message">
+            <div class="cookies">
+                <img src="images/alert-dark.png" alt="alert">
+                <p>
+                    This site makes use of third-party cookies, by clicking "I accept" you agree to the <br>
+                    terms outlined in our <a href="#">cookie policy.</a>
+                </p>
+                <button id="btn" onclick="cookies()">I accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

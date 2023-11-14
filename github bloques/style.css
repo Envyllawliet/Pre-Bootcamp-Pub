@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    background-color: silver;
+}
+
+.container1 {
+    width: 800px;
+    height: 250px;
+    background-color: aqua;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container2 {
+    width: 800px;
+    height: 250px;
+    background-color: palevioletred;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container3 {
+    width: 800px;
+    height: 250px;
+    background-color: black;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+img {
+    width: 200px;
+}

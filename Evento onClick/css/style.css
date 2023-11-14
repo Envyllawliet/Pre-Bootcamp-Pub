@@ -1,0 +1,158 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*navbar*/
+
+.nav {
+    width: 800px;
+    height: 80px;
+    background-color: #cccccc;
+    color: #000000;
+    margin: 0px 50px 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-objects {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+.nav-objects input {
+    width: 300px;
+    height: 25px;
+    border: 3px solid #000000;
+    border-radius: 5%;
+    padding-left: 10px;
+}
+
+.btn {
+    background-color: #2b78e4;
+    color: #ffffff;
+    width: 60px;
+    height: 28px;
+    border: 3px solid #000000;
+    border-radius: 5%;
+    box-shadow: 3px 3px 1px black;
+}
+
+.btn:active {
+    background-color: #1a55a3;
+    box-shadow: 1px 1px 1px black;
+}
+
+/*Main*/
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 800px;
+    margin: 0px 50px;
+}
+
+.col-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+/*Definitions */
+
+.cuadro {
+    border: 3px solid #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+li {
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.title-def {
+    width: 25%;
+    
+}
+
+.title-def span {
+    font-style: italic;
+}
+
+.btn-like span {
+    font-style: normal;
+}
+
+.btn-like {
+    background-color: #ffd966;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 3px 3px 0 #000000;
+    margin-top: 20px;
+    border: 2px solid #000000;
+}
+
+.btn-like:active {
+    background-color: #ccad4d;
+    box-shadow: 1px 1px 1px black;
+}
+
+.def p {
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.def span {
+    text-decoration: underline;
+    color: #2b78e4;
+}
+
+.col-1 .cuadro {
+    flex-direction: column;
+}
+
+.btn-def {
+    background-color: #93c47d;
+    padding: 5px 30px;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: 600;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0 #000000;
+}
